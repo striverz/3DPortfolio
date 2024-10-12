@@ -22,8 +22,8 @@ const About = () => {
             <div className="social-media">
               <a href="https://www.linkedin.com/in/manikanta-korimilli-04a22324b/"><img src={linkedin}/></a>
               <a href="https://x.com/striverz_011"><img src={twitter}/></a>
-              <a href="https://github.com/striverzx"><img src={github}/></a>
-              <a href="https://leetcode.com/u/striverz/"><img src={coding}/></a>
+              <a href="https://github.com/striverz"><img src={github}/></a>
+              <a href="https://codeforces.com/profile/striverz"><img src={coding}/></a>
               
               </div>   
         </div>

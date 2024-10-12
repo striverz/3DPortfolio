@@ -15,7 +15,7 @@ const Hero = () => {
   return (
     <div id='home' className='hero'>
       <img src={logo} alt="" className='profile-img' />
-      <h1><span>I'm ManikantA,</span> Frontend developer, Programmer</h1>
+      <h1><span>I'm ManikantA,</span> FullStack Developer, Programmer</h1>
       {/* <p>I am a Frontend developer, Competitive Programmer</p> */}
       <div className="hero-action">
         <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect with me</AnchorLink></div>

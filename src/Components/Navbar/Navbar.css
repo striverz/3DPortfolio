@@ -2,7 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 10%;
+    margin: 10px 10%;
+    
 }
 .nav-menu{
     display: flex;
@@ -14,14 +15,19 @@
 .nav-connect{
     padding: 15px 20px;
     border-radius: 50px;
-    /* background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%); */
-    background: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    
+    background: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%) !important;
+    /* background: linear-gradient(160deg, #007BFF 0%, #0044CC 100%) !important; */
+    color: #fff;
     font-size: 16px;
     cursor: pointer;
     transition: 0.5s;
+    
 }
 .logo{
-    width: 100px;
+    width: 120px;
+    
+   
 }
 .nav-connect:hover{
     transform: scale(1.05);
@@ -40,6 +46,9 @@
 .anchor-link{
     text-decoration: none;
     color: white;
+    
+    background-color: transparent;
+    
 }
 .nav-mob-close{
     display: none;
